@@ -1,0 +1,656 @@
+denseNet_1.py : 
+PS C:\Users\RAMANUJA\Desktop\Redshift-Estimation> python .\denseNet_1.py
+Using device: cuda
+Loading data...
+Data Prepared. X Shape: (69571, 5, 40, 40), y Shape: (69571, 1)
+
+Starting Training...
+Epoch 01/30 | Train Loss: 0.05615 | Val Loss: 0.04892 (New Best Saved)
+       -> Sig68: 0.0342 | Outliers: 2.43% | Mean Bias: -0.0261
+Epoch 02/30 | Train Loss: 0.03982 | Val Loss: 0.03344 (New Best Saved)
+       -> Sig68: 0.0350 | Outliers: 1.95% | Mean Bias: -0.0125
+Epoch 03/30 | Train Loss: 0.03776 | Val Loss: 0.03633 
+       -> Sig68: 0.0354 | Outliers: 1.67% | Mean Bias: 0.0115
+Epoch 04/30 | Train Loss: 0.03774 | Val Loss: 0.04051 
+       -> Sig68: 0.0434 | Outliers: 2.37% | Mean Bias: -0.0135
+Epoch 05/30 | Train Loss: 0.03644 | Val Loss: 0.03545 
+       -> Sig68: 0.0368 | Outliers: 1.93% | Mean Bias: 0.0056
+Epoch 06/30 | Train Loss: 0.03674 | Val Loss: 0.03578 
+       -> Sig68: 0.0380 | Outliers: 2.16% | Mean Bias: -0.0098
+Epoch 07/30 | Train Loss: 0.03377 | Val Loss: 0.03129 (New Best Saved)
+       -> Sig68: 0.0333 | Outliers: 1.69% | Mean Bias: 0.0002
+Epoch 08/30 | Train Loss: 0.03449 | Val Loss: 0.03483 
+       -> Sig68: 0.0399 | Outliers: 1.26% | Mean Bias: 0.0010
+Epoch 09/30 | Train Loss: 0.03365 | Val Loss: 0.03367 
+       -> Sig68: 0.0367 | Outliers: 1.33% | Mean Bias: 0.0048
+Epoch 10/30 | Train Loss: 0.03287 | Val Loss: 0.03483 
+       -> Sig68: 0.0365 | Outliers: 1.60% | Mean Bias: -0.0145
+Epoch 11/30 | Train Loss: 0.03364 | Val Loss: 0.03664 
+       -> Sig68: 0.0383 | Outliers: 1.54% | Mean Bias: -0.0170
+Epoch 12/30 | Train Loss: 0.03205 | Val Loss: 0.03366 
+       -> Sig68: 0.0375 | Outliers: 1.43% | Mean Bias: -0.0042
+Epoch 13/30 | Train Loss: 0.03160 | Val Loss: 0.03527 
+       -> Sig68: 0.0391 | Outliers: 1.41% | Mean Bias: -0.0099
+Epoch 14/30 | Train Loss: 0.03116 | Val Loss: 0.03127 (New Best Saved)
+       -> Sig68: 0.0348 | Outliers: 1.28% | Mean Bias: -0.0029
+Epoch 15/30 | Train Loss: 0.03087 | Val Loss: 0.03156 
+       -> Sig68: 0.0349 | Outliers: 1.31% | Mean Bias: -0.0040
+Epoch 16/30 | Train Loss: 0.03089 | Val Loss: 0.03649 
+       -> Sig68: 0.0394 | Outliers: 1.46% | Mean Bias: -0.0140
+Epoch 17/30 | Train Loss: 0.03074 | Val Loss: 0.03301 
+       -> Sig68: 0.0368 | Outliers: 1.19% | Mean Bias: -0.0063
+Epoch 18/30 | Train Loss: 0.03101 | Val Loss: 0.03210 
+       -> Sig68: 0.0335 | Outliers: 1.19% | Mean Bias: 0.0037
+Epoch 19/30 | Train Loss: 0.03063 | Val Loss: 0.03189 
+       -> Sig68: 0.0355 | Outliers: 1.19% | Mean Bias: 0.0027
+Epoch 20/30 | Train Loss: 0.03023 | Val Loss: 0.03176 
+       -> Sig68: 0.0355 | Outliers: 1.25% | Mean Bias: -0.0042
+Epoch 21/30 | Train Loss: 0.03076 | Val Loss: 0.02988 (New Best Saved)
+       -> Sig68: 0.0328 | Outliers: 1.15% | Mean Bias: -0.0035
+Epoch 22/30 | Train Loss: 0.03064 | Val Loss: 0.03365 
+       -> Sig68: 0.0343 | Outliers: 1.47% | Mean Bias: -0.0047
+Epoch 23/30 | Train Loss: 0.03039 | Val Loss: 0.03081 
+       -> Sig68: 0.0336 | Outliers: 1.19% | Mean Bias: -0.0062
+Epoch 24/30 | Train Loss: 0.03040 | Val Loss: 0.03383 
+       -> Sig68: 0.0380 | Outliers: 1.23% | Mean Bias: -0.0060
+Epoch 25/30 | Train Loss: 0.03040 | Val Loss: 0.02995 
+       -> Sig68: 0.0330 | Outliers: 1.14% | Mean Bias: -0.0003
+Epoch 26/30 | Train Loss: 0.03042 | Val Loss: 0.03393 
+       -> Sig68: 0.0364 | Outliers: 1.32% | Mean Bias: -0.0115
+Epoch 27/30 | Train Loss: 0.02972 | Val Loss: 0.03081 
+       -> Sig68: 0.0334 | Outliers: 1.21% | Mean Bias: -0.0074
+Epoch 28/30 | Train Loss: 0.02976 | Val Loss: 0.03173 
+       -> Sig68: 0.0351 | Outliers: 1.22% | Mean Bias: -0.0040
+Epoch 29/30 | Train Loss: 0.02976 | Val Loss: 0.03160 
+       -> Sig68: 0.0358 | Outliers: 1.18% | Mean Bias: -0.0012
+Epoch 30/30 | Train Loss: 0.02991 | Val Loss: 0.03185 
+       -> Sig68: 0.0344 | Outliers: 1.31% | Mean Bias: -0.0101
+
+Loading Best Model Weights for Final Evaluation...
+
+Evaluating on Test Set...
+
+--- FINAL TEST RESULTS ---
+MSE: 0.00417
+MAE: 0.04474
+Sigma 68: 0.03280
+Outlier Rate (>0.15): 1.13%
+
+resNet_1.py
+
+PS C:\Users\RAMANUJA\Desktop\Redshift-Estimation> python .\resNet_1.py
+Loading data...
+
+Starting Training...
+Epoch 01/30 | Train Loss: 0.008006 | Val Loss: 0.002974 (New Best Saved)
+Epoch 02/30 | Train Loss: 0.003111 | Val Loss: 0.002207 (New Best Saved)
+Epoch 03/30 | Train Loss: 0.002516 | Val Loss: 0.003030 
+Epoch 04/30 | Train Loss: 0.002261 | Val Loss: 0.002096 (New Best Saved)
+Epoch 05/30 | Train Loss: 0.002117 | Val Loss: 0.002313 
+Epoch 06/30 | Train Loss: 0.001994 | Val Loss: 0.002319 
+Epoch 07/30 | Train Loss: 0.001915 | Val Loss: 0.001799 (New Best Saved)
+Epoch 08/30 | Train Loss: 0.001887 | Val Loss: 0.002022 
+Epoch 09/30 | Train Loss: 0.001904 | Val Loss: 0.001964 
+Epoch 10/30 | Train Loss: 0.001773 | Val Loss: 0.001777 (New Best Saved)
+Epoch 11/30 | Train Loss: 0.001846 | Val Loss: 0.002149 
+Epoch 12/30 | Train Loss: 0.001742 | Val Loss: 0.002153 
+Epoch 13/30 | Train Loss: 0.001680 | Val Loss: 0.001603 (New Best Saved)
+Epoch 14/30 | Train Loss: 0.001720 | Val Loss: 0.001907 
+Epoch 15/30 | Train Loss: 0.001647 | Val Loss: 0.001579 (New Best Saved)
+Epoch 16/30 | Train Loss: 0.001602 | Val Loss: 0.002097 
+Epoch 17/30 | Train Loss: 0.001581 | Val Loss: 0.003579 
+Epoch 18/30 | Train Loss: 0.001697 | Val Loss: 0.002424 
+Epoch 19/30 | Train Loss: 0.001667 | Val Loss: 0.001720 
+Epoch 20/30 | Train Loss: 0.001534 | Val Loss: 0.002066 
+Epoch 21/30 | Train Loss: 0.001499 | Val Loss: 0.001909 
+Epoch 22/30 | Train Loss: 0.001494 | Val Loss: 0.024595 
+Epoch 23/30 | Train Loss: 0.001493 | Val Loss: 0.003491 
+Epoch 24/30 | Train Loss: 0.001434 | Val Loss: 0.008099 
+Epoch 25/30 | Train Loss: 0.001426 | Val Loss: 0.006341 
+Epoch 26/30 | Train Loss: 0.001410 | Val Loss: 0.007390 
+Epoch 27/30 | Train Loss: 0.001417 | Val Loss: 0.011143 
+Epoch 28/30 | Train Loss: 0.001386 | Val Loss: 0.014846 
+Epoch 29/30 | Train Loss: 0.001380 | Val Loss: 0.006473 
+Epoch 30/30 | Train Loss: 0.001370 | Val Loss: 0.005341 
+
+Loading Best Model Weights for Final Evaluation...
+
+Evaluating on Test Set...
+
+Final Test MSE: 0.00375
+Final Test MAE: 0.04195
+
+Saving Plots...
+Saved resnet_results.png
+
+vit.py:
+
+PS C:\Users\RAMANUJA\Desktop\Redshift-Estimation> python .\ViT.py
+Using device: cuda
+Patch grid: 8x8 = 64 patches
+Patch token dim: 125  ->  Embed dim: 256
+Loading data...
+Data ready. X: (69571, 5, 40, 40)
+
+Building AstroViT...
+Trainable parameters: 5,405,204
+
+Starting Training...
+Epoch 001/50 | Train: 5.2243 | Val: 5.2036 | σ68: 0.0884 | Outliers: 12.49% | LR: 2.00e-05 | ETA: 0h58m  ✓ Best Saved
+Epoch 002/50 | Train: 4.7996 | Val: 4.4705 | σ68: 0.0427 | Outliers: 2.67% | LR: 4.00e-05 | ETA: 0h56m  ✓ Best Saved
+Epoch 003/50 | Train: 4.2227 | Val: 3.9764 | σ68: 0.0347 | Outliers: 1.66% | LR: 6.00e-05 | ETA: 0h55m  ✓ Best Saved
+Epoch 004/50 | Train: 3.9813 | Val: 3.9674 | σ68: 0.0349 | Outliers: 1.48% | LR: 8.00e-05 | ETA: 0h54m  ✓ Best Saved
+Epoch 005/50 | Train: 3.8133 | Val: 3.9017 | σ68: 0.0381 | Outliers: 1.77% | LR: 1.00e-04 | ETA: 0h53m  ✓ Best Saved
+Epoch 006/50 | Train: 3.6642 | Val: 3.8438 | σ68: 0.0363 | Outliers: 1.49% | LR: 9.99e-05 | ETA: 0h52m  ✓ Best Saved
+Epoch 007/50 | Train: 3.5046 | Val: 3.8170 | σ68: 0.0346 | Outliers: 1.38% | LR: 9.95e-05 | ETA: 0h50m  ✓ Best Saved
+Epoch 008/50 | Train: 3.3851 | Val: 3.9567 | σ68: 0.0364 | Outliers: 1.31% | LR: 9.89e-05 | ETA: 0h49m  
+Epoch 009/50 | Train: 3.2930 | Val: 3.7616 | σ68: 0.0319 | Outliers: 1.11% | LR: 9.81e-05 | ETA: 0h48m  ✓ Best Saved
+Epoch 010/50 | Train: 3.1838 | Val: 3.8817 | σ68: 0.0336 | Outliers: 1.34% | LR: 9.70e-05 | ETA: 0h47m  
+Epoch 011/50 | Train: 3.0967 | Val: 3.7238 | σ68: 0.0314 | Outliers: 1.19% | LR: 9.57e-05 | ETA: 0h46m  ✓ Best Saved
+Epoch 012/50 | Train: 3.0138 | Val: 3.7699 | σ68: 0.0319 | Outliers: 1.21% | LR: 9.41e-05 | ETA: 0h45m  
+Epoch 013/50 | Train: 2.9543 | Val: 3.8486 | σ68: 0.0349 | Outliers: 1.15% | LR: 9.24e-05 | ETA: 0h43m  
+Epoch 014/50 | Train: 2.8785 | Val: 3.7545 | σ68: 0.0312 | Outliers: 1.09% | LR: 9.05e-05 | ETA: 0h42m  
+Epoch 015/50 | Train: 2.8275 | Val: 3.8074 | σ68: 0.0326 | Outliers: 1.23% | LR: 8.83e-05 | ETA: 0h41m  
+Epoch 016/50 | Train: 2.7522 | Val: 3.7940 | σ68: 0.0318 | Outliers: 1.15% | LR: 8.60e-05 | ETA: 0h40m  
+Epoch 017/50 | Train: 2.6768 | Val: 3.7980 | σ68: 0.0312 | Outliers: 1.31% | LR: 8.35e-05 | ETA: 0h39m  
+Epoch 018/50 | Train: 2.6075 | Val: 3.8081 | σ68: 0.0325 | Outliers: 1.14% | LR: 8.08e-05 | ETA: 0h37m  
+Epoch 019/50 | Train: 2.5533 | Val: 3.8332 | σ68: 0.0318 | Outliers: 1.18% | LR: 7.80e-05 | ETA: 0h36m  
+Epoch 020/50 | Train: 2.4758 | Val: 3.8454 | σ68: 0.0317 | Outliers: 1.21% | LR: 7.50e-05 | ETA: 0h35m  
+Epoch 021/50 | Train: 2.4058 | Val: 3.8463 | σ68: 0.0320 | Outliers: 1.07% | LR: 7.19e-05 | ETA: 0h34m  
+Epoch 022/50 | Train: 2.3622 | Val: 3.8753 | σ68: 0.0312 | Outliers: 1.10% | LR: 6.87e-05 | ETA: 0h33m  
+Epoch 023/50 | Train: 2.3126 | Val: 3.9231 | σ68: 0.0325 | Outliers: 1.16% | LR: 6.55e-05 | ETA: 0h32m  
+Epoch 024/50 | Train: 2.2664 | Val: 3.9352 | σ68: 0.0314 | Outliers: 1.18% | LR: 6.21e-05 | ETA: 0h30m  
+Epoch 025/50 | Train: 2.2214 | Val: 3.9153 | σ68: 0.0303 | Outliers: 1.19% | LR: 5.87e-05 | ETA: 0h29m  
+Epoch 026/50 | Train: 2.1673 | Val: 3.9304 | σ68: 0.0312 | Outliers: 1.08% | LR: 5.52e-05 | ETA: 0h28m  
+Epoch 027/50 | Train: 2.1266 | Val: 3.9481 | σ68: 0.0313 | Outliers: 1.11% | LR: 5.17e-05 | ETA: 0h27m  
+Epoch 028/50 | Train: 2.0800 | Val: 3.9575 | σ68: 0.0302 | Outliers: 1.15% | LR: 4.83e-05 | ETA: 0h26m  
+Epoch 029/50 | Train: 2.0429 | Val: 3.9848 | σ68: 0.0307 | Outliers: 1.09% | LR: 4.48e-05 | ETA: 0h24m  
+Epoch 030/50 | Train: 1.9981 | Val: 4.0508 | σ68: 0.0325 | Outliers: 1.20% | LR: 4.13e-05 | ETA: 0h23m  
+Epoch 031/50 | Train: 1.9738 | Val: 4.0076 | σ68: 0.0300 | Outliers: 1.09% | LR: 3.79e-05 | ETA: 0h22m  
+Epoch 032/50 | Train: 1.9415 | Val: 4.1295 | σ68: 0.0326 | Outliers: 1.12% | LR: 3.45e-05 | ETA: 0h21m  
+Epoch 033/50 | Train: 1.9004 | Val: 4.0537 | σ68: 0.0303 | Outliers: 1.10% | LR: 3.13e-05 | ETA: 0h20m  
+Epoch 034/50 | Train: 1.8743 | Val: 4.1644 | σ68: 0.0316 | Outliers: 1.19% | LR: 2.81e-05 | ETA: 0h18m  
+Epoch 035/50 | Train: 1.8444 | Val: 4.1636 | σ68: 0.0315 | Outliers: 1.09% | LR: 2.50e-05 | ETA: 0h17m  
+Epoch 036/50 | Train: 1.8186 | Val: 4.1656 | σ68: 0.0313 | Outliers: 1.16% | LR: 2.20e-05 | ETA: 0h16m  
+Epoch 037/50 | Train: 1.7970 | Val: 4.1335 | σ68: 0.0301 | Outliers: 1.18% | LR: 1.92e-05 | ETA: 0h15m  
+Epoch 038/50 | Train: 1.7674 | Val: 4.1654 | σ68: 0.0310 | Outliers: 1.05% | LR: 1.65e-05 | ETA: 0h14m  
+Epoch 039/50 | Train: 1.7627 | Val: 4.1555 | σ68: 0.0301 | Outliers: 1.09% | LR: 1.40e-05 | ETA: 0h13m  
+Epoch 040/50 | Train: 1.7274 | Val: 4.1925 | σ68: 0.0303 | Outliers: 1.11% | LR: 1.17e-05 | ETA: 0h11m  
+Epoch 041/50 | Train: 1.7164 | Val: 4.2322 | σ68: 0.0312 | Outliers: 1.11% | LR: 9.55e-06 | ETA: 0h10m  
+Epoch 042/50 | Train: 1.7043 | Val: 4.2119 | σ68: 0.0303 | Outliers: 1.18% | LR: 7.60e-06 | ETA: 0h09m  
+Epoch 043/50 | Train: 1.6681 | Val: 4.2298 | σ68: 0.0304 | Outliers: 1.06% | LR: 5.85e-06 | ETA: 0h08m  
+Epoch 044/50 | Train: 1.6755 | Val: 4.2201 | σ68: 0.0306 | Outliers: 1.11% | LR: 4.32e-06 | ETA: 0h07m  
+Epoch 045/50 | Train: 1.6744 | Val: 4.2149 | σ68: 0.0301 | Outliers: 1.14% | LR: 3.02e-06 | ETA: 0h05m  
+Epoch 046/50 | Train: 1.6645 | Val: 4.2519 | σ68: 0.0305 | Outliers: 1.12% | LR: 1.94e-06 | ETA: 0h04m  
+Epoch 047/50 | Train: 1.6497 | Val: 4.2458 | σ68: 0.0306 | Outliers: 1.09% | LR: 1.09e-06 | ETA: 0h03m  
+Epoch 048/50 | Train: 1.6502 | Val: 4.2389 | σ68: 0.0302 | Outliers: 1.11% | LR: 4.87e-07 | ETA: 0h02m  
+Epoch 049/50 | Train: 1.6555 | Val: 4.2540 | σ68: 0.0304 | Outliers: 1.11% | LR: 1.22e-07 | ETA: 0h01m  
+Epoch 050/50 | Train: 1.6381 | Val: 4.2370 | σ68: 0.0303 | Outliers: 1.12% | LR: 0.00e+00 | ETA: 0h00m  
+
+Loading best model weights...
+
+Actual total training time: 0.99 h  (59.4 min)
+
+Evaluating on Test Set...
+
+=======================================================
+  FINAL TEST RESULTS — AstroViT
+=======================================================
+  Mean Bias             : -0.00381
+  Median Bias           : -0.00070
+  Sigma 68              : +0.03160
+  Sigma Std             : +0.04471
+  Outlier %             : +1.15035
+  sigma_MAD             : +0.02995
+=======================================================
+
+Saving Plots...
+Saved vit_results.png
+
+Generating attention map visualisations...
+Saved vit_attention_maps.png
+
+PS C:\Users\RAMANUJA\Desktop\Redshift-Estimation> python .\EfficientNet-B0_1.py          
+Loading data...
+
+Starting Training...
+Epoch 01/30 | Train Loss: 0.00665 | Val Loss: 0.00389 (New Best Saved)
+Epoch 02/30 | Train Loss: 0.00392 | Val Loss: 0.00316 (New Best Saved)
+Epoch 03/30 | Train Loss: 0.00332 | Val Loss: 0.00364 
+Epoch 04/30 | Train Loss: 0.00315 | Val Loss: 0.00293 (New Best Saved)
+Epoch 05/30 | Train Loss: 0.00286 | Val Loss: 0.00240 (New Best Saved)
+Epoch 06/30 | Train Loss: 0.00243 | Val Loss: 0.00218 (New Best Saved)
+Epoch 07/30 | Train Loss: 0.00219 | Val Loss: 0.00210 (New Best Saved)
+Epoch 08/30 | Train Loss: 0.00227 | Val Loss: 0.00224 
+Epoch 09/30 | Train Loss: 0.00245 | Val Loss: 0.00220 
+Epoch 10/30 | Train Loss: 0.00217 | Val Loss: 0.00255 
+Epoch 11/30 | Train Loss: 0.00215 | Val Loss: 0.00326 
+Epoch 12/30 | Train Loss: 0.00208 | Val Loss: 0.00229 
+Epoch 13/30 | Train Loss: 0.00197 | Val Loss: 0.00241 
+Epoch 14/30 | Train Loss: 0.00189 | Val Loss: 0.00217 
+Epoch 15/30 | Train Loss: 0.00186 | Val Loss: 0.00180 (New Best Saved)
+Epoch 16/30 | Train Loss: 0.00188 | Val Loss: 0.00266 
+Epoch 17/30 | Train Loss: 0.00180 | Val Loss: 0.00194 
+Epoch 18/30 | Train Loss: 0.00177 | Val Loss: 0.00166 (New Best Saved)
+Epoch 19/30 | Train Loss: 0.00183 | Val Loss: 0.00181 
+Epoch 20/30 | Train Loss: 0.00236 | Val Loss: 0.00208 
+Epoch 21/30 | Train Loss: 0.00206 | Val Loss: 0.00215 
+Epoch 22/30 | Train Loss: 0.00200 | Val Loss: 0.00198 
+Epoch 23/30 | Train Loss: 0.00191 | Val Loss: 0.00206 
+Epoch 24/30 | Train Loss: 0.00188 | Val Loss: 0.00196 
+Epoch 25/30 | Train Loss: 0.00187 | Val Loss: 0.00189 
+Epoch 26/30 | Train Loss: 0.00185 | Val Loss: 0.00203 
+Epoch 27/30 | Train Loss: 0.00179 | Val Loss: 0.00200 
+Epoch 28/30 | Train Loss: 0.00179 | Val Loss: 0.00197 
+Epoch 29/30 | Train Loss: 0.00177 | Val Loss: 0.00180 
+Epoch 30/30 | Train Loss: 0.00175 | Val Loss: 0.00183 
+
+Loading Best Model Weights for Final Evaluation...
+
+Evaluating on Test Set...
+
+--- FINAL TEST RESULTS ---
+MSE: 0.00398
+MAE: 0.04287
+Sigma 68: 0.03088
+Outlier Rate (>0.15): 1.24%
+
+Saving Plots...
+Saved efficientnet_results.png
+PS C:\Users\RAMANUJA\Desktop\
+
+inception:
+
+PS C:\Users\RAMANUJA\Desktop\Redshift-Estimation> python '.\pasquet_inception_1.py'
+Loading data...
+
+Starting Training...
+Epoch 001/50 | Train: 4.1794 | Val: 4.0559 | σ68: 0.0404 ✓ Best Saved
+Epoch 002/50 | Train: 3.8127 | Val: 3.9490 | σ68: 0.0396 ✓ Best Saved
+Epoch 003/50 | Train: 3.6448 | Val: 3.8924 | σ68: 0.0400 ✓ Best Saved
+Epoch 004/50 | Train: 3.5032 | Val: 3.8431 | σ68: 0.0368 ✓ Best Saved
+Epoch 005/50 | Train: 3.4125 | Val: 3.7937 | σ68: 0.0322 ✓ Best Saved
+Epoch 006/50 | Train: 3.3328 | Val: 3.8927 | σ68: 0.0355 
+Epoch 007/50 | Train: 3.2590 | Val: 4.0273 | σ68: 0.0416 
+Epoch 008/50 | Train: 3.2042 | Val: 3.7787 | σ68: 0.0323 ✓ Best Saved
+Epoch 009/50 | Train: 3.1647 | Val: 3.8369 | σ68: 0.0355 
+Epoch 010/50 | Train: 3.1029 | Val: 3.7814 | σ68: 0.0318 
+Epoch 011/50 | Train: 3.0608 | Val: 3.7273 | σ68: 0.0299 ✓ Best Saved
+Epoch 012/50 | Train: 3.0027 | Val: 3.7870 | σ68: 0.0318 
+Epoch 013/50 | Train: 2.9769 | Val: 3.8675 | σ68: 0.0327 
+Epoch 014/50 | Train: 2.9390 | Val: 3.7631 | σ68: 0.0306 
+Epoch 015/50 | Train: 2.9189 | Val: 3.8971 | σ68: 0.0340 
+Epoch 016/50 | Train: 2.8671 | Val: 3.8895 | σ68: 0.0339 
+Epoch 017/50 | Train: 2.8305 | Val: 3.8197 | σ68: 0.0323 
+Epoch 018/50 | Train: 2.8093 | Val: 3.9410 | σ68: 0.0351 
+Epoch 019/50 | Train: 2.7898 | Val: 3.8752 | σ68: 0.0342 
+Epoch 020/50 | Train: 2.7646 | Val: 3.8978 | σ68: 0.0328 
+Epoch 021/50 | Train: 2.7423 | Val: 3.8951 | σ68: 0.0334 
+Epoch 022/50 | Train: 2.7216 | Val: 3.9836 | σ68: 0.0372 
+Epoch 023/50 | Train: 2.7008 | Val: 3.9175 | σ68: 0.0345 
+Epoch 024/50 | Train: 2.6811 | Val: 3.8874 | σ68: 0.0332 
+Epoch 025/50 | Train: 2.6471 | Val: 3.8912 | σ68: 0.0329 
+Epoch 026/50 | Train: 2.6324 | Val: 3.8841 | σ68: 0.0326 
+Epoch 027/50 | Train: 2.5964 | Val: 3.8909 | σ68: 0.0324 
+Epoch 028/50 | Train: 2.5904 | Val: 3.9435 | σ68: 0.0340 
+Epoch 029/50 | Train: 2.5709 | Val: 3.9615 | σ68: 0.0342 
+Epoch 030/50 | Train: 2.5704 | Val: 3.9124 | σ68: 0.0313 
+Epoch 031/50 | Train: 2.5539 | Val: 3.9024 | σ68: 0.0321 
+Epoch 032/50 | Train: 2.5280 | Val: 3.9140 | σ68: 0.0322 
+Epoch 033/50 | Train: 2.5037 | Val: 3.8907 | σ68: 0.0319 
+Epoch 034/50 | Train: 2.5064 | Val: 3.9178 | σ68: 0.0324 
+Epoch 035/50 | Train: 2.4651 | Val: 3.8855 | σ68: 0.0308 
+Epoch 036/50 | Train: 2.4858 | Val: 3.8900 | σ68: 0.0313 
+Epoch 037/50 | Train: 2.4536 | Val: 3.8773 | σ68: 0.0314 
+Epoch 038/50 | Train: 2.4557 | Val: 3.9413 | σ68: 0.0323 
+Epoch 039/50 | Train: 2.4454 | Val: 3.9726 | σ68: 0.0321 
+Epoch 040/50 | Train: 2.4373 | Val: 3.9379 | σ68: 0.0327 
+Epoch 041/50 | Train: 2.4297 | Val: 3.9364 | σ68: 0.0322 
+Epoch 042/50 | Train: 2.4193 | Val: 3.9104 | σ68: 0.0318 
+Epoch 043/50 | Train: 2.4225 | Val: 3.8970 | σ68: 0.0311 
+Epoch 044/50 | Train: 2.4124 | Val: 3.9056 | σ68: 0.0314 
+Epoch 045/50 | Train: 2.4074 | Val: 3.9706 | σ68: 0.0322 
+Epoch 046/50 | Train: 2.4141 | Val: 3.9088 | σ68: 0.0312 
+Epoch 047/50 | Train: 2.3960 | Val: 3.8990 | σ68: 0.0310 
+Epoch 048/50 | Train: 2.3980 | Val: 3.9863 | σ68: 0.0326 
+Epoch 049/50 | Train: 2.4098 | Val: 3.9489 | σ68: 0.0323 
+Epoch 050/50 | Train: 2.4024 | Val: 3.9488 | σ68: 0.0321 
+
+Loading best model weights...
+
+Evaluating on Test Set...
+
+  FINAL TEST RESULTS
+  Sigma 68:          0.02980
+  Outlier Rate >0.15:0.95%
+
+Saving Plots...
+Saved pasquet_inception_results.png
+
+Generating example PDF plots...
+Saved pasquet_example_pdfs.png
+
+
+PS C:\Users\RAMANUJA\Desktop\Redshift-Estimation> python .\resNet.py             
+Using device: cuda
+Loading data...
+Data Prepared. X Shape: (69571, 5, 40, 40), y Shape: (69571, 1)
+
+Starting Training...
+Epoch 01/30 | Train Loss: 0.007116 | Val Loss: 0.002229 (New Best Saved)
+Epoch 02/30 | Train Loss: 0.002925 | Val Loss: 0.003037 
+Epoch 03/30 | Train Loss: 0.002280 | Val Loss: 0.002735 
+Epoch 04/30 | Train Loss: 0.002065 | Val Loss: 0.001964 (New Best Saved)
+Epoch 05/30 | Train Loss: 0.001914 | Val Loss: 0.001967 
+Epoch 06/30 | Train Loss: 0.001874 | Val Loss: 0.001936 (New Best Saved)
+Epoch 07/30 | Train Loss: 0.001687 | Val Loss: 0.001978 
+Epoch 08/30 | Train Loss: 0.001644 | Val Loss: 0.002207 
+Epoch 09/30 | Train Loss: 0.001532 | Val Loss: 0.001823 (New Best Saved)
+Epoch 10/30 | Train Loss: 0.001505 | Val Loss: 0.002070 
+Epoch 11/30 | Train Loss: 0.001398 | Val Loss: 0.002504 
+Epoch 12/30 | Train Loss: 0.001337 | Val Loss: 0.001859 
+Epoch 13/30 | Train Loss: 0.001434 | Val Loss: 0.003640 
+Epoch 14/30 | Train Loss: 0.001103 | Val Loss: 0.001944 
+Epoch 15/30 | Train Loss: 0.001032 | Val Loss: 0.002059 
+Epoch 16/30 | Train Loss: 0.000989 | Val Loss: 0.001900 
+Epoch 17/30 | Train Loss: 0.000934 | Val Loss: 0.002049 
+Epoch 18/30 | Train Loss: 0.000813 | Val Loss: 0.001898 
+Epoch 19/30 | Train Loss: 0.000773 | Val Loss: 0.001932 
+Epoch 20/30 | Train Loss: 0.000741 | Val Loss: 0.002085 
+Epoch 21/30 | Train Loss: 0.000715 | Val Loss: 0.002263 
+Epoch 22/30 | Train Loss: 0.000646 | Val Loss: 0.002297 
+Epoch 23/30 | Train Loss: 0.000620 | Val Loss: 0.002593 
+Epoch 24/30 | Train Loss: 0.000600 | Val Loss: 0.002371 
+Epoch 25/30 | Train Loss: 0.000585 | Val Loss: 0.002335 
+Epoch 26/30 | Train Loss: 0.000548 | Val Loss: 0.002433 
+Epoch 27/30 | Train Loss: 0.000536 | Val Loss: 0.002748 
+Epoch 28/30 | Train Loss: 0.000520 | Val Loss: 0.003008 
+Epoch 29/30 | Train Loss: 0.000510 | Val Loss: 0.002573 
+Epoch 30/30 | Train Loss: 0.000494 | Val Loss: 0.002185 
+
+Loading Best Model Weights for Final Evaluation...
+
+Evaluating on Test Set...
+
+Final Test MSE: 0.00459
+Final Test MAE: 0.04557
+
+PS C:\Users\RAMANUJA\Desktop\Redshift-Estimation> python .\EfficientNet-B0.py 
+
+Using device: cuda
+Loading data...
+Data Prepared. X Shape: (69571, 5, 40, 40), y Shape: (69571, 1)
+
+Starting Training...
+Epoch 01/30 | Train Loss: 0.00638 | Val Loss: 0.00315 (New Best Saved)
+       -> Sig68: 0.0451 | Outliers: 3.18% | Mean Bias: -0.0108
+Epoch 02/30 | Train Loss: 0.00376 | Val Loss: 0.00589 
+       -> Sig68: 0.0459 | Outliers: 4.99% | Mean Bias: -0.0352
+Epoch 03/30 | Train Loss: 0.00303 | Val Loss: 0.00246 (New Best Saved)
+       -> Sig68: 0.0390 | Outliers: 1.85% | Mean Bias: 0.0066
+Epoch 04/30 | Train Loss: 0.00266 | Val Loss: 0.00263 
+       -> Sig68: 0.0393 | Outliers: 2.30% | Mean Bias: 0.0020
+Epoch 05/30 | Train Loss: 0.00251 | Val Loss: 0.00257 
+       -> Sig68: 0.0432 | Outliers: 2.29% | Mean Bias: -0.0131
+Epoch 06/30 | Train Loss: 0.00240 | Val Loss: 0.00222 (New Best Saved)
+       -> Sig68: 0.0361 | Outliers: 2.23% | Mean Bias: -0.0133
+Epoch 07/30 | Train Loss: 0.00237 | Val Loss: 0.00203 (New Best Saved)
+       -> Sig68: 0.0337 | Outliers: 1.91% | Mean Bias: -0.0136
+Epoch 08/30 | Train Loss: 0.00218 | Val Loss: 0.00286 
+       -> Sig68: 0.0334 | Outliers: 2.17% | Mean Bias: -0.0348
+Epoch 09/30 | Train Loss: 0.00200 | Val Loss: 0.00181 (New Best Saved)
+       -> Sig68: 0.0327 | Outliers: 1.41% | Mean Bias: -0.0047
+Epoch 10/30 | Train Loss: 0.00225 | Val Loss: 0.00221 
+       -> Sig68: 0.0353 | Outliers: 2.27% | Mean Bias: -0.0120
+Epoch 11/30 | Train Loss: 0.00215 | Val Loss: 0.00225 
+       -> Sig68: 0.0330 | Outliers: 1.80% | Mean Bias: -0.0224
+Epoch 12/30 | Train Loss: 0.00199 | Val Loss: 0.00224 
+       -> Sig68: 0.0340 | Outliers: 2.10% | Mean Bias: -0.0211
+Epoch 13/30 | Train Loss: 0.00209 | Val Loss: 0.00199 
+       -> Sig68: 0.0342 | Outliers: 1.67% | Mean Bias: -0.0127
+Epoch 14/30 | Train Loss: 0.00197 | Val Loss: 0.00200 
+       -> Sig68: 0.0334 | Outliers: 1.71% | Mean Bias: -0.0138
+Epoch 15/30 | Train Loss: 0.00189 | Val Loss: 0.00239 
+       -> Sig68: 0.0357 | Outliers: 1.84% | Mean Bias: -0.0237
+Epoch 16/30 | Train Loss: 0.00181 | Val Loss: 0.00186 
+       -> Sig68: 0.0319 | Outliers: 1.49% | Mean Bias: -0.0136
+Epoch 17/30 | Train Loss: 0.00181 | Val Loss: 0.00227 
+       -> Sig68: 0.0388 | Outliers: 1.71% | Mean Bias: -0.0161
+Epoch 18/30 | Train Loss: 0.00174 | Val Loss: 0.00231 
+       -> Sig68: 0.0352 | Outliers: 2.33% | Mean Bias: -0.0193
+Epoch 19/30 | Train Loss: 0.00171 | Val Loss: 0.00229 
+       -> Sig68: 0.0375 | Outliers: 1.54% | Mean Bias: -0.0197
+Epoch 20/30 | Train Loss: 0.00171 | Val Loss: 0.00207 
+       -> Sig68: 0.0372 | Outliers: 1.44% | Mean Bias: -0.0118
+Epoch 21/30 | Train Loss: 0.00165 | Val Loss: 0.00256 
+       -> Sig68: 0.0384 | Outliers: 1.78% | Mean Bias: -0.0239
+Epoch 22/30 | Train Loss: 0.00166 | Val Loss: 0.00292 
+       -> Sig68: 0.0392 | Outliers: 1.74% | Mean Bias: -0.0301
+Epoch 23/30 | Train Loss: 0.00164 | Val Loss: 0.00296 
+       -> Sig68: 0.0413 | Outliers: 1.70% | Mean Bias: -0.0288
+Epoch 24/30 | Train Loss: 0.00163 | Val Loss: 0.00236 
+       -> Sig68: 0.0354 | Outliers: 2.00% | Mean Bias: -0.0231
+Epoch 25/30 | Train Loss: 0.00162 | Val Loss: 0.00296 
+       -> Sig68: 0.0413 | Outliers: 1.83% | Mean Bias: -0.0292
+Epoch 26/30 | Train Loss: 0.00161 | Val Loss: 0.00303 
+       -> Sig68: 0.0431 | Outliers: 1.81% | Mean Bias: -0.0281
+Epoch 27/30 | Train Loss: 0.00160 | Val Loss: 0.00239 
+       -> Sig68: 0.0356 | Outliers: 1.81% | Mean Bias: -0.0245
+Epoch 28/30 | Train Loss: 0.00158 | Val Loss: 0.00261 
+       -> Sig68: 0.0397 | Outliers: 1.49% | Mean Bias: -0.0238
+Epoch 29/30 | Train Loss: 0.00158 | Val Loss: 0.00248 
+       -> Sig68: 0.0383 | Outliers: 1.84% | Mean Bias: -0.0231
+Epoch 30/30 | Train Loss: 0.00157 | Val Loss: 0.00371 
+       -> Sig68: 0.0436 | Outliers: 2.23% | Mean Bias: -0.0384
+
+Loading Best Model Weights for Final Evaluation...
+
+Evaluating on Test Set...
+
+--- FINAL TEST RESULTS ---
+MSE: 0.00431
+MAE: 0.04535
+Sigma 68: 0.03317
+Outlier Rate (>0.15): 1.32%
+Mean Bias: -0.00440
+Median Bias: -0.00174
+
+PS C:\Users\RAMANUJA\Desktop\Redshift-Estimation> python .\denseNet.py           
+Using device: cuda
+Loading data...
+Data Prepared. X Shape: (69571, 5, 40, 40), y Shape: (69571, 1)
+
+Starting Training...
+Epoch 01/30 | Train Loss: 0.05532 | Val Loss: 0.03940 (New Best Saved)
+       -> Sig68: 0.0350 | Outliers: 1.55% | Mean Bias: 0.0192
+Epoch 02/30 | Train Loss: 0.03972 | Val Loss: 0.03398 (New Best Saved)
+       -> Sig68: 0.0341 | Outliers: 2.37% | Mean Bias: -0.0098
+Epoch 03/30 | Train Loss: 0.03679 | Val Loss: 0.03341 (New Best Saved)
+       -> Sig68: 0.0349 | Outliers: 1.64% | Mean Bias: 0.0053
+Epoch 04/30 | Train Loss: 0.03552 | Val Loss: 0.04081 
+       -> Sig68: 0.0353 | Outliers: 1.37% | Mean Bias: 0.0225
+Epoch 05/30 | Train Loss: 0.03593 | Val Loss: 0.03540 
+       -> Sig68: 0.0384 | Outliers: 1.28% | Mean Bias: 0.0078
+Epoch 06/30 | Train Loss: 0.03488 | Val Loss: 0.04717 
+       -> Sig68: 0.0413 | Outliers: 2.23% | Mean Bias: 0.0231
+Epoch 07/30 | Train Loss: 0.03495 | Val Loss: 0.03567 
+       -> Sig68: 0.0387 | Outliers: 1.58% | Mean Bias: -0.0107
+Epoch 08/30 | Train Loss: 0.03347 | Val Loss: 0.03777 
+       -> Sig68: 0.0434 | Outliers: 1.45% | Mean Bias: -0.0021
+Epoch 09/30 | Train Loss: 0.03235 | Val Loss: 0.04356 
+       -> Sig68: 0.0454 | Outliers: 1.72% | Mean Bias: -0.0205
+Epoch 10/30 | Train Loss: 0.03167 | Val Loss: 0.03693 
+       -> Sig68: 0.0366 | Outliers: 1.64% | Mean Bias: -0.0070
+Epoch 11/30 | Train Loss: 0.03158 | Val Loss: 0.03459 
+       -> Sig68: 0.0340 | Outliers: 1.70% | Mean Bias: -0.0075
+Epoch 12/30 | Train Loss: 0.03075 | Val Loss: 0.03155 (New Best Saved)
+       -> Sig68: 0.0349 | Outliers: 1.26% | Mean Bias: -0.0017
+Epoch 13/30 | Train Loss: 0.03031 | Val Loss: 0.03075 (New Best Saved)
+       -> Sig68: 0.0331 | Outliers: 1.18% | Mean Bias: 0.0046
+Epoch 14/30 | Train Loss: 0.02999 | Val Loss: 0.03065 (New Best Saved)
+       -> Sig68: 0.0328 | Outliers: 1.28% | Mean Bias: 0.0022
+Epoch 15/30 | Train Loss: 0.03018 | Val Loss: 0.06723 
+       -> Sig68: 0.0379 | Outliers: 1.44% | Mean Bias: -0.0358
+Epoch 16/30 | Train Loss: 0.03073 | Val Loss: 0.03990 
+       -> Sig68: 0.0371 | Outliers: 1.25% | Mean Bias: -0.0126
+Epoch 17/30 | Train Loss: 0.03025 | Val Loss: 0.05853 
+       -> Sig68: 0.0414 | Outliers: 1.60% | Mean Bias: -0.0330
+Epoch 18/30 | Train Loss: 0.03002 | Val Loss: 0.04331 
+       -> Sig68: 0.0380 | Outliers: 1.34% | Mean Bias: -0.0149
+Epoch 19/30 | Train Loss: 0.02953 | Val Loss: 0.06143 
+       -> Sig68: 0.0391 | Outliers: 1.80% | Mean Bias: -0.0325
+Epoch 20/30 | Train Loss: 0.02932 | Val Loss: 0.06118 
+       -> Sig68: 0.0381 | Outliers: 1.80% | Mean Bias: -0.0382
+Epoch 21/30 | Train Loss: 0.02982 | Val Loss: 0.03937 
+       -> Sig68: 0.0403 | Outliers: 1.39% | Mean Bias: -0.0100
+Epoch 22/30 | Train Loss: 0.02906 | Val Loss: 0.03390 
+       -> Sig68: 0.0386 | Outliers: 1.24% | Mean Bias: -0.0034
+Epoch 23/30 | Train Loss: 0.02859 | Val Loss: 0.03313 
+       -> Sig68: 0.0369 | Outliers: 1.21% | Mean Bias: -0.0063
+Epoch 24/30 | Train Loss: 0.02833 | Val Loss: 0.03348 
+       -> Sig68: 0.0382 | Outliers: 1.19% | Mean Bias: -0.0011
+Epoch 25/30 | Train Loss: 0.02836 | Val Loss: 0.03487 
+       -> Sig68: 0.0390 | Outliers: 1.24% | Mean Bias: -0.0081
+Epoch 26/30 | Train Loss: 0.02835 | Val Loss: 0.03430 
+       -> Sig68: 0.0378 | Outliers: 1.26% | Mean Bias: -0.0096
+Epoch 27/30 | Train Loss: 0.02830 | Val Loss: 0.03583 
+       -> Sig68: 0.0403 | Outliers: 1.29% | Mean Bias: -0.0092
+Epoch 28/30 | Train Loss: 0.02832 | Val Loss: 0.03345 
+       -> Sig68: 0.0349 | Outliers: 1.09% | Mean Bias: -0.0013
+Epoch 29/30 | Train Loss: 0.02828 | Val Loss: 0.03484 
+       -> Sig68: 0.0369 | Outliers: 1.14% | Mean Bias: -0.0017
+Epoch 30/30 | Train Loss: 0.02818 | Val Loss: 0.06484 
+       -> Sig68: 0.0352 | Outliers: 1.54% | Mean Bias: -0.0409
+
+Loading Best Model Weights for Final Evaluation...
+
+Evaluating on Test Set...
+
+--- FINAL TEST RESULTS ---
+MSE: 0.00437
+MAE: 0.04584
+Sigma 68: 0.03316
+Outlier Rate (>0.15): 1.17%
+Mean Bias: 0.00278
+Median Bias: 0.00477
+
+PS C:\Users\RAMANUJA\Desktop\Redshift-Estimation> python .\pasquet_inception.py              
+Using device: cuda
+Redshift bins: 180  |  Bin width: 0.0053
+Loading data...
+Data ready. X: (69571, 5, 40, 40)  z: (69571, 1)
+
+Model parameters: 646,588
+
+Starting Training...
+Epoch 001/50 | Train: 4.1555 | Val: 4.1145 | σ68: 0.0439 | σMAD: 0.0425 | Outliers: 2.07% | Bias: -0.0019  ✓ Best
+Epoch 002/50 | Train: 3.7676 | Val: 4.1342 | σ68: 0.0466 | σMAD: 0.0460 | Outliers: 2.59% | Bias: -0.0183  
+Epoch 003/50 | Train: 3.6119 | Val: 4.1057 | σ68: 0.0460 | σMAD: 0.0430 | Outliers: 4.61% | Bias: -0.0258  ✓ Best
+Epoch 004/50 | Train: 3.4929 | Val: 3.8369 | σ68: 0.0351 | σMAD: 0.0333 | Outliers: 1.49% | Bias: -0.0058  ✓ Best
+Epoch 005/50 | Train: 3.4038 | Val: 4.3062 | σ68: 0.0520 | σMAD: 0.0522 | Outliers: 2.87% | Bias: -0.0154  
+Epoch 006/50 | Train: 3.3150 | Val: 3.8111 | σ68: 0.0324 | σMAD: 0.0317 | Outliers: 1.26% | Bias: +0.0016  ✓ Best
+Epoch 007/50 | Train: 3.2655 | Val: 4.0035 | σ68: 0.0394 | σMAD: 0.0377 | Outliers: 1.83% | Bias: -0.0161  
+Epoch 008/50 | Train: 3.1838 | Val: 3.8846 | σ68: 0.0345 | σMAD: 0.0322 | Outliers: 1.64% | Bias: +0.0035  
+Epoch 009/50 | Train: 3.1368 | Val: 3.7133 | σ68: 0.0293 | σMAD: 0.0275 | Outliers: 1.05% | Bias: -0.0057  ✓ Best
+Epoch 010/50 | Train: 3.0745 | Val: 3.9408 | σ68: 0.0358 | σMAD: 0.0337 | Outliers: 1.41% | Bias: -0.0172  
+Epoch 011/50 | Train: 3.0312 | Val: 3.8058 | σ68: 0.0320 | σMAD: 0.0308 | Outliers: 1.01% | Bias: -0.0054  
+Epoch 012/50 | Train: 3.0059 | Val: 3.8782 | σ68: 0.0337 | σMAD: 0.0312 | Outliers: 1.48% | Bias: +0.0005  
+Epoch 013/50 | Train: 2.9582 | Val: 3.8245 | σ68: 0.0316 | σMAD: 0.0292 | Outliers: 1.22% | Bias: -0.0119  
+Epoch 014/50 | Train: 2.9324 | Val: 4.0020 | σ68: 0.0361 | σMAD: 0.0335 | Outliers: 2.26% | Bias: -0.0180  
+Epoch 015/50 | Train: 2.9013 | Val: 3.8211 | σ68: 0.0316 | σMAD: 0.0298 | Outliers: 1.09% | Bias: -0.0094  
+Epoch 016/50 | Train: 2.8739 | Val: 3.7985 | σ68: 0.0306 | σMAD: 0.0292 | Outliers: 1.16% | Bias: -0.0038  
+Epoch 017/50 | Train: 2.8253 | Val: 4.0175 | σ68: 0.0374 | σMAD: 0.0353 | Outliers: 2.21% | Bias: -0.0028  
+Epoch 018/50 | Train: 2.8191 | Val: 3.8529 | σ68: 0.0306 | σMAD: 0.0282 | Outliers: 1.24% | Bias: -0.0025  
+Epoch 019/50 | Train: 2.7943 | Val: 3.9334 | σ68: 0.0337 | σMAD: 0.0318 | Outliers: 1.45% | Bias: -0.0098  
+Epoch 020/50 | Train: 2.7721 | Val: 4.0216 | σ68: 0.0370 | σMAD: 0.0351 | Outliers: 1.54% | Bias: -0.0120  
+Epoch 021/50 | Train: 2.7418 | Val: 3.9274 | σ68: 0.0336 | σMAD: 0.0314 | Outliers: 1.34% | Bias: +0.0001  
+Epoch 022/50 | Train: 2.7208 | Val: 3.8842 | σ68: 0.0319 | σMAD: 0.0301 | Outliers: 1.18% | Bias: -0.0117  
+Epoch 023/50 | Train: 2.6903 | Val: 3.8971 | σ68: 0.0316 | σMAD: 0.0298 | Outliers: 1.26% | Bias: +0.0043  
+Epoch 024/50 | Train: 2.6796 | Val: 3.8216 | σ68: 0.0295 | σMAD: 0.0280 | Outliers: 0.95% | Bias: -0.0025  
+Epoch 025/50 | Train: 2.6634 | Val: 3.8572 | σ68: 0.0313 | σMAD: 0.0294 | Outliers: 0.98% | Bias: -0.0056  
+Epoch 026/50 | Train: 2.6275 | Val: 3.9295 | σ68: 0.0323 | σMAD: 0.0303 | Outliers: 1.28% | Bias: -0.0074  
+Epoch 027/50 | Train: 2.6327 | Val: 3.8697 | σ68: 0.0308 | σMAD: 0.0291 | Outliers: 0.85% | Bias: -0.0035  
+Epoch 028/50 | Train: 2.6012 | Val: 3.9407 | σ68: 0.0313 | σMAD: 0.0289 | Outliers: 1.44% | Bias: -0.0100  
+Epoch 029/50 | Train: 2.5746 | Val: 3.9597 | σ68: 0.0338 | σMAD: 0.0314 | Outliers: 1.37% | Bias: +0.0018  
+Epoch 030/50 | Train: 2.5682 | Val: 3.9066 | σ68: 0.0321 | σMAD: 0.0302 | Outliers: 1.02% | Bias: -0.0092  
+Epoch 031/50 | Train: 2.5469 | Val: 3.8730 | σ68: 0.0304 | σMAD: 0.0285 | Outliers: 0.95% | Bias: -0.0032  
+Epoch 032/50 | Train: 2.5343 | Val: 3.9058 | σ68: 0.0316 | σMAD: 0.0293 | Outliers: 1.11% | Bias: -0.0060  
+Epoch 033/50 | Train: 2.5340 | Val: 3.8732 | σ68: 0.0304 | σMAD: 0.0287 | Outliers: 1.05% | Bias: -0.0046  
+Epoch 034/50 | Train: 2.5142 | Val: 3.9261 | σ68: 0.0321 | σMAD: 0.0299 | Outliers: 0.96% | Bias: -0.0079  
+Epoch 035/50 | Train: 2.4903 | Val: 3.9748 | σ68: 0.0337 | σMAD: 0.0319 | Outliers: 1.08% | Bias: -0.0083  
+Epoch 036/50 | Train: 2.4961 | Val: 3.9404 | σ68: 0.0320 | σMAD: 0.0297 | Outliers: 1.14% | Bias: -0.0043  
+Epoch 037/50 | Train: 2.4780 | Val: 3.9072 | σ68: 0.0309 | σMAD: 0.0290 | Outliers: 0.98% | Bias: -0.0046  
+Epoch 038/50 | Train: 2.4675 | Val: 3.8709 | σ68: 0.0301 | σMAD: 0.0280 | Outliers: 0.96% | Bias: -0.0034  
+Epoch 039/50 | Train: 2.4508 | Val: 3.9316 | σ68: 0.0315 | σMAD: 0.0292 | Outliers: 1.03% | Bias: -0.0073  
+Epoch 040/50 | Train: 2.4498 | Val: 3.9975 | σ68: 0.0319 | σMAD: 0.0297 | Outliers: 1.15% | Bias: -0.0077  
+Epoch 041/50 | Train: 2.4426 | Val: 3.9576 | σ68: 0.0318 | σMAD: 0.0295 | Outliers: 1.15% | Bias: -0.0075  
+Epoch 042/50 | Train: 2.4423 | Val: 3.9351 | σ68: 0.0305 | σMAD: 0.0286 | Outliers: 0.95% | Bias: -0.0023  
+Epoch 043/50 | Train: 2.4236 | Val: 3.9301 | σ68: 0.0306 | σMAD: 0.0289 | Outliers: 0.99% | Bias: -0.0033  
+Epoch 044/50 | Train: 2.4357 | Val: 4.1489 | σ68: 0.0344 | σMAD: 0.0323 | Outliers: 1.42% | Bias: -0.0161  
+Epoch 045/50 | Train: 2.4330 | Val: 3.9698 | σ68: 0.0315 | σMAD: 0.0293 | Outliers: 1.11% | Bias: -0.0073  
+Epoch 046/50 | Train: 2.4138 | Val: 3.9356 | σ68: 0.0314 | σMAD: 0.0295 | Outliers: 0.98% | Bias: -0.0042  
+Epoch 047/50 | Train: 2.4027 | Val: 3.9303 | σ68: 0.0309 | σMAD: 0.0286 | Outliers: 1.06% | Bias: -0.0072  
+Epoch 048/50 | Train: 2.4139 | Val: 3.9410 | σ68: 0.0319 | σMAD: 0.0297 | Outliers: 0.99% | Bias: -0.0052  
+Epoch 049/50 | Train: 2.4098 | Val: 3.9151 | σ68: 0.0306 | σMAD: 0.0286 | Outliers: 0.93% | Bias: -0.0028  
+Epoch 050/50 | Train: 2.4116 | Val: 3.9314 | σ68: 0.0311 | σMAD: 0.0291 | Outliers: 0.98% | Bias: -0.0068  
+
+Loading best model weights...
+
+Evaluating on Test Set...
+
+=======================================================
+  FINAL TEST RESULTS — Pasquet Inception Network
+=======================================================
+  Sigma 68:          0.02959
+  sigma_MAD:         0.02806
+  Sigma Std:         0.04123
+  Outlier Rate >0.15:1.03%
+  Mean Bias:         -0.00548
+  Median Bias:       -0.00417
+=======================================================
+Plot saved to pasquet_inception_results.png
+
+Generating example PDF plots...
+PDF examples saved to pasquet_example_pdfs.png
+
+PS C:\Users\RAMANUJA\Desktop\Redshift-Estimation> python model.py
+Using device: cuda
+Loading data...
+Data Prepared. X Shape: (69571, 5, 40, 40), y Shape: (69571, 1)
+
+Starting Training...
+Epoch 1/30 | Train Loss: 0.023528 | Val Loss: 0.017411
+Epoch 2/30 | Train Loss: 0.005818 | Val Loss: 0.023500
+Epoch 3/30 | Train Loss: 0.005288 | Val Loss: 0.016465
+Epoch 4/30 | Train Loss: 0.004856 | Val Loss: 0.011165
+Epoch 5/30 | Train Loss: 0.004547 | Val Loss: 0.007512
+Epoch 6/30 | Train Loss: 0.004204 | Val Loss: 0.009123
+Epoch 7/30 | Train Loss: 0.004055 | Val Loss: 0.009137
+Epoch 8/30 | Train Loss: 0.003911 | Val Loss: 0.011602
+Epoch 9/30 | Train Loss: 0.003804 | Val Loss: 0.007868
+Epoch 10/30 | Train Loss: 0.003308 | Val Loss: 0.008464
+Epoch 11/30 | Train Loss: 0.003117 | Val Loss: 0.011717
+Epoch 12/30 | Train Loss: 0.002966 | Val Loss: 0.011795
+Epoch 13/30 | Train Loss: 0.002830 | Val Loss: 0.009886
+Epoch 14/30 | Train Loss: 0.002390 | Val Loss: 0.009504
+Epoch 15/30 | Train Loss: 0.002201 | Val Loss: 0.009544
+Epoch 16/30 | Train Loss: 0.002061 | Val Loss: 0.010766
+Epoch 17/30 | Train Loss: 0.001938 | Val Loss: 0.009355
+Epoch 18/30 | Train Loss: 0.001713 | Val Loss: 0.013181
+Epoch 19/30 | Train Loss: 0.001616 | Val Loss: 0.012686
+Epoch 20/30 | Train Loss: 0.001541 | Val Loss: 0.012320
+Epoch 21/30 | Train Loss: 0.001471 | Val Loss: 0.009763
+Epoch 22/30 | Train Loss: 0.001332 | Val Loss: 0.012021
+Epoch 23/30 | Train Loss: 0.001280 | Val Loss: 0.011155
+Epoch 24/30 | Train Loss: 0.001250 | Val Loss: 0.012620
+Epoch 25/30 | Train Loss: 0.001214 | Val Loss: 0.012226
+Epoch 26/30 | Train Loss: 0.001148 | Val Loss: 0.011714
+Epoch 27/30 | Train Loss: 0.001144 | Val Loss: 0.012016
+Epoch 28/30 | Train Loss: 0.001113 | Val Loss: 0.011984
+Epoch 29/30 | Train Loss: 0.001100 | Val Loss: 0.011468
+Epoch 30/30 | Train Loss: 0.001060 | Val Loss: 0.011751
+
+Evaluating on Test Set...
+
+Final Test MSE: 0.01136
+Final Test MAE: 0.08708
