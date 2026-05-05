@@ -76,3 +76,4 @@ After completing Step 4, verify that your `data/extracted_data/final/` directory
 *   `y_test.npy`  (Shape should be roughly `29817, 4`)
 
 You are now ready to run the model training scripts (e.g., `denseNet_1.py`, `pasquet_inception_1.py`).
+Download the data directly from my folder: https://drive.google.com/drive/folders/1aXbrHjE9N9tuHt3DQ-Ma_8TGXRQDVDxE?usp=sharing
